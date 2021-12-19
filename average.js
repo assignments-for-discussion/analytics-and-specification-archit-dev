@@ -1,6 +1,6 @@
 function average(numbers) {
-  validNumbers = 0;
-  sumOfValidNumbers = 0;
+  let validNumbers = 0;
+  let sumOfValidNumbers = 0;
   for (let num = 0; num < numbers.length; num++) {
     //if numbers[num] is valid a number
     //include it in the average calculation
